@@ -22,7 +22,7 @@ function CanvasApplication(){
 useEffect(() => {
 
   const password = prompt("Enter password to edit the canvas:");
-  if (password === "YOUR_SECRET_PASSWORD") {
+  if (password === "SECRETPASSWORD") {
     setHasEditPermission(true);
   } else {
     setHasEditPermission(false);
