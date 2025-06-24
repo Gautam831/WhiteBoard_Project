@@ -7,7 +7,7 @@ import {IconButton} from "blocksin-system";
 import {CircleIcon, SquareIcon, TextIcon, EraserIcon, SlashIcon, Pencil1Icon, EyedropperIcon} from "sebikostudio-icons";
 import Settings from "./settings";
 
-const socket = io("http://localhost:4000");
+const socket = io("https://whiteboard-project-hclm.onrender.com");
 
 function CanvasApplication(){
   const [selectedColor, setSelectedColor] = useState("#000000");
