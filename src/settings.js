@@ -14,7 +14,6 @@ function Settings({ canvas }) {
                 setSelectedObject(obj);
                 updateFormValues(obj);
 
-                // ✅ disable free drawing on select
                 canvas.isDrawingMode = false;
             };
 
